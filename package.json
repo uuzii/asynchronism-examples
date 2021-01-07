@@ -1,0 +1,24 @@
+{
+  "name": "asynchronism-project",
+  "version": "1.0.0",
+  "description": "this is a project to learn asynchronism",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:implementation": "node src/callback/challenge.js",
+    "promise": "node src/promises/index.js",
+    "promise:implementation": "node src/promises/challenge.js",
+    "async": "node src/async-await/index.js",
+    "async:implementation": "node src/async-await/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "uzi jonadab",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
